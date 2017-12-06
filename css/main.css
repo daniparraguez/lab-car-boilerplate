@@ -1,1 +1,100 @@
 /* Los estilos de tu proyecto */
+
+.first-section {
+  background-image: url(../assets/images/taxi.jpg);
+  height: 50em;
+  width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center 92%;
+	padding-top: 10em;
+
+}
+
+.jumbotron,.descarga,.tarifas {
+	background-color: #F7B617;
+	color:white;
+
+}
+.conduce {
+	background-image: url(../assets/images/conduce.jpg);
+  height: 30em;
+  width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+
+}
+.iphone {
+	padding: 3em 3em;
+}
+.phone{
+	border: solid 0.1em white;
+	margin: 4em -1em;
+	height: 32em;
+	width: 90%;
+
+}
+.footer {
+	background-color: black;
+}
+.logo{
+	padding-top: 0.4em;
+}
+
+.logow {
+	height: 0.7em;
+}
+hr{
+	width: 20%;
+	height: 0.3em;
+	display: inline-flex;
+	margin: 0.4em;
+}
+.drive-card{
+	background-color: rgba(0,0,0,0.5);
+	color:white;
+	height: 30em;
+	padding-top: 5em;
+
+}
+.tarifas{
+	padding-left: 4em;
+	overflow: hidden;
+}
+form{
+	padding-top: 2em;
+}
+input#inicio.form-control, input#fin.form-control{
+	background-color: transparent;
+	width: 50%;
+
+}
+span.input-group-addon{
+	border: none;
+	background-color: transparent;
+}
+div.input-group{
+	margin-bottom: 2em;
+}
+.form-control::-webkit-input-placeholder {
+	color: white
+}
+.form-control::-moz-placeholder {
+	color: white
+}
+.form-control:-ms-input-placeholder {
+	color: white;
+}
+.form-control:-moz-placeholder {
+	color: white
+}
+.logofooter{
+	padding: 3em 0em;
+}
+.border{
+	height: 30em;
+	border-top: solid 0.1em white;
+	border-bottom: solid 0.1em white;
+}
+

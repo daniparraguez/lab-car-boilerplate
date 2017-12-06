@@ -1,1 +1,162 @@
 <!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Labcar</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--Barra de navegación-->
+<nav class="navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> <!-- este le da el menú hamburguesa -->
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			<img class="logo visible-xs" src="assets/images/logoForma.png" alt="logo">
+      </span>
+    </div>
+    <div class="navbar-collapse collapse">
+			<img class="logo" src="assets/images/logoForma.png" alt="logo">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#viaja">Viaja</a></li>
+        <li><a href="#conduce">Conduce</a></li>
+        <li><a href="#inicia" data-toggle="modal" data-target="#exampleModal">Inicia Sesión</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Registro-->
+<section class="first-section container-fluid">
+	<div class="row">
+		<div class="col-lg-7 col-md-7 col-sm-4 col-xs-4"></div>
+    <div class="col-lg-5 col-md-5 col-sm-8 col-xs-8">
+			<div class="jumbotron">
+			<div class="hidden-sm hidden-xs">
+        <h3>Disfruta del viaje <br>Eres dueño de tu tiempo</h3>
+        <p>Viaja con <span><img class="logow" src="assets/images/logoBlanco.png" alt="logow"></span></p>
+        <button type="button" class="btn btn-md btn-default">Regístrate</button>
+
+<!-- Modal Inicia Sesión -->
+<div class="modal fade" id="exampleModal" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <p><hr><span>o bien</span><hr></p>
+        <button type="button" class="btn btn-md btn-default">Conviértete en un conductor</button>
+       </div>
+       <div class="visible-sm visible-xs">
+       <h1>Comienza a viajar <br>con <span><img class="logow " src="assets/images/logoBlanco.png" alt="logow"></span></h1><br>
+       <button type="button" class="btn btn-lg btn-default">Descarga el app</button>
+       </div>
+      </div>
+		</div>
+	</div>
+</section>
+<!--Descarga-->
+<section class="descarga container-fluid">
+	<div class="row">
+		<div class="phone">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<img class="iphone img-responsive" src="assets/images/iPhone6Plus.png" alt="iphone">
+		</div>
+    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+			<h3 class="text-white">Descarga la nueva app</h3>
+			<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar donde quieras aún más fácil y rápido <br><br>Con solo tocar un botón un auto llega justo a tu ubicación.Súbete y no te preocupes: tu conductor sabe exactamente donde ir.</p>
+		</div>
+  	</div>
+  </div>
+</section>
+
+<!--Conduce cuando quieras-->
+<section class="conduce container-fluid">
+	<div class="row">
+		<div class="col-lg-8 col-md-8 hidden-sm hidden-xs"></div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="container-fluid drive-card">
+        <h2 class="text-white">Conduce cuando quieras</h2>
+        <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+        <button type="button" class="btn btn-md btn-warning">Conviértete en conductor</button>
+      </div>
+		</div>
+	</div>
+</section>
+<!--Tarifas-->
+<section class="tarifas container-fluid">
+	<div class="row">
+		<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+		<h2 class="text-white">Tarifas</h2>
+        <p>Consulta las tarifas de LabCar aquí:</p>
+<form>
+  <div class="input-group">
+		<span class="input-group-addon"><img class="icon" src="assets/images/shape.png" alt=""></span><span>
+    <input id="inicio" type="text" class="form-control" name="email" placeholder="Ingrese un punto de partida">
+  </div>
+  <div class="input-group">
+    <span class="input-group-addon"><img class="icon" src="assets/images/shape2.png" alt=""></span><span>
+    <input id="fin" type="text" class="form-control" name="password" placeholder="Ingrese su destino"></span>
+  </div>
+     <button type="button" class="btn btn-md btn-default">¡TRAZAR RUTA!</button>
+</form>
+</div>
+    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+			<div class="jumbotron">
+<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6660.2743557507!2d-70.6461004!3d-33.4196678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5ebb9db324b%3A0xec27a99048bbbaec!2sBlanco+Recoleta+IF!5e0!3m2!1ses!2scl!4v1512524915658" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+		</div>
+</section>
+
+<!--Footer-->
+<section class="footer container-fluid">
+	<div class="row">
+
+    <div class="col-lg-5 col-md-5 col-sm-8 col-xs-8">
+			<img class="logofooter" src="assets/images/logoBlanco.png" alt="">
+		</div>
+	</div>
+		<div class="border">
+		<div class="row">
+    <div class="col-lg-5 col-md-5 col-sm-8 col-xs-8">
+        <h1 class="text-white">Theme example</h1>
+        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
+      </div>
+	</div>
+	<div class="row">
+		
+	</div>
+	</div>
+<div class="row">
+	<p> <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
+</div>
+</section>
+
+  <!-- Bootstrap core JavaScript-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
