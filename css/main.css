@@ -35,9 +35,7 @@
 	width: 90%;
 
 }
-.footer {
-	background-color: black;
-}
+
 .logo{
 	padding-top: 0.4em;
 }
@@ -89,12 +87,34 @@ div.input-group{
 .form-control:-moz-placeholder {
 	color: white
 }
+.footer {
+	background-color: black;
+	color:white;
+	padding: 2em 4em;
+}
 .logofooter{
 	padding: 3em 0em;
 }
 .border{
-	height: 30em;
+	height: 20em;
 	border-top: solid 0.1em white;
 	border-bottom: solid 0.1em white;
+	padding-bottom: 1em;
+	padding-top: 2em;
+}
+a, ul li{
+	text-decoration: none;
+	color:white;
+	list-style: none;
+}
+i.fa{
+	font-size: 1em;
+	vertical-align: bottom;
+}
+.icons{
+	padding-top: 15em;
+}
+.icons2{
+	padding-bottom: 1em;
 }
 
